@@ -1,9 +1,11 @@
 # slavic-fauxamis / False Friends in Slavic Languages
 
 ## About
-This database is a collection of 'false friends' (shared words having different meanings) between Slavic languages, e.g. Russian–Polish, Macedonian–Upper Sorbian, Belarusian–Serbian, etc.
+This database system is a collection of 'false friends' (shared words having different meanings) between Slavic languages, e.g. Russian–Polish, Macedonian–Upper Sorbian, Belarusian–Serbian, etc.
 
 [Read more about the database here](https://pod-o-mart.github.io/slavic-fauxamis/about.html).
+
+The database system was initially published in 2020 on the [Danish Portal for Slavonic, Balkan and East European Studies](https://oesteuropastudier.dk/en/dictionaries/fauxamis). As I do not have the ressources to maintain the code anymore, I have decided to publish the code on Github to anyone.
 
 ## Installation
 - Install the SQL database (utf8_general_ci) to your MySQL server. Create a user for the database
