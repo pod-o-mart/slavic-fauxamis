@@ -1,0 +1,325 @@
+body {
+padding:20px;
+}
+
+blockquote {
+	padding: 10px 20px 10px 90px;
+	margin: 0;
+	font-family: serif;
+	font-size: 1rem;
+	border-left: 0;
+	background: url(img/about/quote.png) no-repeat;
+	background-position: 0 10px;
+}
+
+a {
+color: #1a4689;
+}
+
+a:visited {
+color: #a719d6;
+}
+
+.falsefriend  {
+margin:0;
+padding:0;
+}
+
+.falsefriend {
+font-family:Arial, sans;
+font-size:1em;
+}
+
+.falsefriend .result a,
+.falsefriend .wordlist a{
+font-size:1.2em!important;
+}
+
+.falsefriend td.column3 a:hover,
+.falsefriend .result a:hover,
+.falsefriend .compare a:hover,
+.falsefriend .wordlist a:hover,
+.falsefriend strong a:hover,
+.falsefriend h2 a:hover,
+.falsefriend h3 a:hover,
+.falsefriend h4 a:hover {
+text-decoration: underline !important;
+text-decoration-thickness: 2px !important;
+text-underline-offset: 2px !important;
+}
+
+.falsefriends_maps {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.anchor {
+display: block;
+position: relative;
+top: -200px;
+visibility: hidden;
+}
+
+
+ol, ul {
+margin:0 0 0 25px;
+padding:0;
+}
+
+ol.list-meanings li {
+font-weight:bold;
+}
+
+.terminfo {
+margin-bottom:10px;
+}
+
+table.navtable {
+margin-top:20px;
+}
+
+table .falsefriends_map,
+table .navtable {
+border-collapse: separate!important;
+border-spacing: 2px;
+}
+
+table.falsefriends_map {
+background-color:#dcdcdc;
+}
+
+table.navtable .west {
+background-color:rgba(0, 0, 0, 0.1);
+}
+
+table.navtable .east,
+table.navtable .south {
+background-color:rgba(0, 0, 0, 0.2);
+}
+
+table.navtable td {
+text-align:center;
+padding:0;
+margin:2px;
+font-weight:bold;
+min-width: max-content;
+}
+
+table.navtable a {
+text-decoration:none;
+padding:2px;
+width:100%;
+height:100%;
+display:inline-block;
+}
+
+table.navtable a {
+outline:0;
+}
+
+table.navtable a:hover,
+table.navtable a:focus,
+table.navtable a:active {
+border-radius: .2rem;
+}
+
+table.navtable a:hover {
+background-color:#212529;
+color:white;
+}
+
+table.navtable a:focus,
+table.navtable a:focus-within {
+background-color:#5b6771;
+color:yellow;
+}
+
+table .map_itself {
+width:470px;
+height:420px;
+vertical-align:top;
+}
+
+table .map_legend {
+vertical-align:bottom;
+}
+
+table.termlist,
+table.compare {
+width:100%;
+}
+
+table.termlist {
+border-top: 2px solid darkgrey;
+}
+
+table.termlist td.column1 {
+width:35%;
+}
+
+table.termlist td.column2 {
+width:55%;
+}
+
+table.termlist td.column3 {
+width:10%;
+text-align:right;
+}
+
+table.list {
+width:100%;
+background-color:#dcdcdc;
+margin-bottom:10px;
+vertical-align:top;
+}
+
+table.list td {
+vertical-align:top;
+}
+
+table.list td.info {
+background-color:#fff;
+}
+
+table.list td.left {
+width:20%;
+}
+
+table.list td.right {
+width:10%;
+vertical-align:middle;
+text-align:right;
+}
+
+table.termlist td {
+width:25%;
+vertical-align:top;
+}
+
+table.termlist tr.row1 {
+background-color: rgba(0,0,0,.05);
+border-left: 1px solid #dee2e6;
+}
+
+table.termlist tr.row2 {
+border-left: 1px solid #dee2e6;
+border-top: 1px solid #dee2e6;
+}
+
+table.termlist td.column2,
+table.termlist td.column3 {
+border-right: 1px solid #dee2e6;
+}
+
+table.termlist td,
+table.list td,
+table.compare td {
+padding:5px;
+}
+
+table.termlist td.column3 {
+vertical-align:middle;
+}
+
+table.termlist td.column3 a {
+font-weight:bold;
+}
+
+table.compare td.column2 {
+width:70%;
+}
+
+.smallmap {
+position:absolute; left:5px;
+top:5px;
+width:450px;
+height:400px;
+}
+
+.legend {
+height:20px;
+width:30px;
+border: 2px solid transparent;
+}
+
+table.semmap {
+text-align:center;
+border-collapse: separate;
+}
+
+.semmap tr {
+background-color:#dcdcdc;
+}
+
+.semmap td {
+margin:2px;
+padding:3px;
+vertical-align:top;
+}
+
+.semmap tr.southeast {
+background-color:rgba(0, 0, 0, 0.2);
+}
+
+td.heading {
+text-align:left;
+}
+
+span.noterm:hover {
+color:red;
+cursor:help;
+}
+
+.note {
+color:darkblue;
+font-style:italic;
+font-weight:normal!important;
+}
+
+.terminfo .note {
+color:initial;
+}
+
+.falsefriends_maps .note {
+color:initial;
+font-weight:normal;
+}
+
+.terminfo .note::before,
+.falsefriends_maps .note::before {
+content:'(';
+}
+.terminfo .note::after,
+.falsefriends_maps .note::after {
+content:')';
+}
+
+td.heading .note {
+color:darkgreen;
+}
+
+td.heading .note::before {
+content:none;
+}
+
+td.heading .note::after {
+content:none;
+}
+
+.note.synonym {
+color:darkred;
+}
+
+.aspect {
+color:darkgreen;
+font-style:italic;
+}
+
+.table-left {
+border-right: 2px solid #dee2e6;
+}
+
+.card {
+margin-bottom:20px;
+}
