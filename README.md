@@ -1,5 +1,5 @@
 # slavic-fauxamis / False Friends in Slavic Languages
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5165025.svg)](https://doi.org/10.5281/zenodo.5165025)
 ## About
 This database system is a collection of 'false friends' (shared words having different meanings) between Slavic languages, e.g. Russian–Polish, Macedonian–Upper Sorbian, Belarusian–Serbian, etc.
 
@@ -8,8 +8,9 @@ This database system is a collection of 'false friends' (shared words having dif
 The database system was initially published in 2020 on the [Danish Portal for Slavonic, Balkan and East European Studies](https://oesteuropastudier.dk/en/dictionaries/fauxamis). As I do not have the ressources to maintain the code anymore, I have decided to publish the code on Github to anyone.
 
 ## Installation
-- Install the SQL database (utf8_general_ci) to your MySQL server. Create a user for the database
-- Copy all files to a folder of your choice on your server/webspace
+- Download the the [MySLQ database](https://github.com/pod-o-mart/slavic-fauxamis/files/6941287/falsefriends_.sql.zip) and unzip it
+- Import the SQL database (utf8_general_ci) to your MySQL server. Create a user for the database
+- Copy all files from this Github repository to a folder of your choice on your server/webspace
 - Edit the file db.php, declare hostname, MySQL username, MySQL userpassword
 - point with your browser to index.php in the folder of your choice of your server/webspace
 
