@@ -1,5 +1,5 @@
 # slavic-fauxamis / False Friends in Slavic Languages
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5165025.svg)](https://doi.org/10.5281/zenodo.5165025)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5178553.svg)](https://doi.org/10.5281/zenodo.5178553)
 ## About
 This database system is a collection of 'false friends' (shared words having different meanings) between Slavic languages, e.g. Russian–Polish, Macedonian–Upper Sorbian, Belarusian–Serbian, etc.
 
